@@ -1,0 +1,7 @@
+
+.custtt:not(textarea) {
+    display: inline ; 
+}
+
+
+

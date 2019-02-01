@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>rocket elevator - Multipurpose + Admin</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="cust.css" rel="stylesheet" type="text/css" />
+		
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/yellow.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link href="assets/css/color_scheme/custom.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-white					= white background
+		grain-white				= white grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo float-left scrollTo" href="Rocket_elevators_Website.html">
+							<img src="assets/image1/R2.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="Rocket_elevators_Website.html">
+											HOME
+										</a>
+									</li>
+									<li><!-- SERVICES -->
+										<a href="Rocket_elevators_Website.html#services">
+											SERVICES
+										</a>
+									</li>
+									
+									<li><!-- NEWS -->
+										<a href="Rocket_elevators_Website.html#news">
+											NEWS
+										</a>
+									</li>
+									
+									<li><!-- CLIENTS -->
+										<a href="Rocket_elevators_Website.html#clients">
+											CLIENTS
+										</a>
+									</li>
+									<li><!-- BLOG -->
+										<a href="Rocket_elevators_Website.html#portfolio">
+											PORTFOLIO
+										</a>
+									</li>
+									<li><!-- CONTACT -->
+										<a href="Rocket_elevators_Website.html#contact">
+											CONTACT
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+
+
+						
+
+
+			<hr class="m-0" /><!-- 1px line separator -->
+
+
+
+			<div class="heading-title heading-dotted text-center">
+					<h2>
+							submission request form !</h2>
+				</div>
+
+
+
+<div class="text-center">
+			<!-- CONTACT -->
+			<div class="col-md-12">
+					
+				<div class="container">
+							<label>
+								Building Type<br>
+							</label>
+								<select id="building" name="building_choice">
+									<option value="none">-----Select---</option>
+									<option value="commercial">Commercial</option>
+									<option value="corporate">Corporate</option>
+									<option value="hybrid">Hybrid</option>
+									<option value="residential">Residential</option>
+								</select>
+							
+						</form>
+			
+						
+						
+						<div id="resbuild">
+								Number of apartments:
+								<input id="resnoa" type="number" class="custtt" placeholder="Number of apartments"  onkeyup="calculer()">
+								<br/>
+								Number of floors without basements:
+								<input id="resnof" type="number" class="custtt" placeholder="Number of floors" onkeyup="calculer()">
+								<br/>
+								Number of basements:
+								<input id="resnob" type="number" class="custtt" placeholder="Number of basements" onkeyup="calculer()">
+								<br/>
+								result:
+								<input id="resultres" type="number" placeholder="result">$
+						</div>
+						<div id="combuild">
+								Number of :
+								<input id="comnodb" type="number" class="custtt" placeholder="Number of distinct businesses" onkeyup="calculer()">
+								<br/>
+								Number of floors without basements:
+								<input id="comnof" type="number" class="custtt" placeholder="Number of floors" onkeyup="calculer()">
+								<br/>
+								Number of basements:
+								<input id="comnob" type="number" class="custtt" placeholder="Number of basements" onkeyup="calculer()">
+								<br/>
+								Number of parking spaces available:
+								<input id="comnops" type="number" class="custtt" placeholder="Number of parking spaces available" onkeyup="calculer()">
+								<br/>
+								Number of lift cages to deploy
+								<input id="comnolc" type="number" class="custtt" placeholder="Number of lift cages to deploy" onkeyup="calculer()">
+								<br/>
+								result:
+								<input id="resultcom" type="number" placeholder="result">$
+						</div>
+						<div id="corbuild">
+								Number of 
+								<input id="cornostc" type="number" class="custtt" placeholder="Number of separate tenant companies" onkeyup="calculer()">
+								<br/>
+								Number of floors without basements:
+								<input id="cornof" type="number" class="custtt" placeholder="Number of floors" onkeyup="calculer()">
+								<br/>
+								Number of basements:
+								<input id="cornob" type="number" class="custtt" placeholder="Number of basements" onkeyup="calculer()">
+								<br/>
+								Number of parking spaces available:
+								<input id="cornops" type="number" class="custtt" placeholder="Number of parking spaces available" onkeyup="calculer()">
+								<br/>
+								"Maximum number of occupants per floor:
+								<input id="cornoo" type="number" class="custtt" placeholder="Maximum number of occupants per floor" onkeyup="calculer()">
+								<br/>
+								result:
+								<input id="resultcor" type="number" placeholder="result">$
+						</div>
+						<div id="hybbuild">
+								Number of distinct businesses:
+							    <input id="hybnodb" type="number" class="custtt" placeholder="Number of distinct businesses" onkeyup="calculer()">
+								<br/>
+								Number of floors without basements:
+								<input id="hybnof" type="number" class="custtt" placeholder="Number of floors" onkeyup="calculer()">
+								<br/>
+								Number of basements:
+								<input id="hybnob" type="number" class="custtt" placeholder="Number of basements" onkeyup="calculer()">
+								<br/>
+								Number of parking spaces available:
+								<input id="hybnops" type="number" class="custtt" placeholder="Number of parking spaces available" onkeyup="calculer()">
+								<br/>
+								Time of activities of the building (max 24 hours):
+								<input id="hybnolc" type="number" class="custtt" placeholder="Time of activities of the building (max 24)" onkeyup="calculer()">
+								<br/>
+								Maximum number of occupants per floor:
+								<input id="hybnoo" type="number" class="custtt" placeholder="Maximum number of occupants per floor" onkeyup="calculer()">
+								<br/>
+								result:
+								<input id="resulthyb" type="number" placeholder="result">$
+						</div>
+
+					</div>
+					<input  id=radiobut1 type="radio" name="gammes" value="7565">standard
+					<input  id=radiobut2 type="radio" name="gammes" value="12345">premium
+					<input  id=radiobut3  type="radio" name="gammes" value="15400">excelium
+					<br/>
+					<input type="hidden" placeholder="result">
+				</div>
+
+			<div>
+			
+			</div>
+
+
+		
+				
+</div>	
+			
+
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+
+					<div class="row">
+
+						<!-- col #1 -->
+						<div class="col-md-8">
+
+							<h3 class="letter-spacing-1">WHY US?</h3>
+
+							<!-- Small Description -->
+							<p>
+								
+With our skills and reliability, you can trust us and let us take care of your elevators
+							</p>
+							<h2>(418)-580-7055</h2>
+						</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+						<div class="col-md-4">
+							<h3 class="letter-spacing-1">KEEP IN TOUCH</h3>
+
+							<!-- Newsletter Form -->
+							<p>Subscribe to Rocket elevators Newsletter to get Important News & Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success btncolorCyan" type="submit">Enter</button>
+								
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+
+						</div>
+						<!-- /col #2 -->
+
+					</div>
+
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="float-right m-0 list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+	
+
+		<!-- REVOLUTION SLIDER -->
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="assets/js/view/demo.revolution_slider.js"></script>
+
+		<!-- PAGELEVEL SCRIPTS -->
+		<script src="assets/js/contact.js"></script>
+		<script src="request_for_sub.js"></script>
+
+		<!-- 
+			GMAP.JS 
+			http://hpneo.github.io/gmaps/
+		<script src="//maps.google.com/maps/api/js?key=AIzaSyCqCn84CgZN6o1Xc3P4dM657HIxkX3jzPY"></script>
+		<script src="assets/plugins/gmaps.js"></script>
+		<script>
+
+			jQuery(document).ready(function(){
+
+				/**
+					@BASIC GOOGLE MAP
+				**/
+				var map2 = new GMaps({
+					div: '#map2',
+					lat: -12.043333,
+					lng: -77.028333,
+					scrollwheel: false
+				});
+
+				var marker = map2.addMarker({
+					lat: -12.043333,
+					lng: -77.028333,
+					title: 'Company, Inc.'
+				});
+
+			}); -->
+
+		</script>
+	</body>
+</html>
