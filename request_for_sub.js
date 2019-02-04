@@ -41,41 +41,51 @@ $(function(){
              var radioValue3 = parseInt($("input[id='radiobut3']:checked").val());
             
             if(radioValue1){
-    
+
+              var resx20=Math.ceil(resnof/20)
+              console.log("resx20 ="+resx20)
               var resmoyenlogement=parseInt(Math.ceil((resnoa) /(resnof)));
               console.log("resmoyenlogement ="+ resmoyenlogement)
               var rescageelevator=parseInt(Math.ceil((resmoyenlogement/6)));
               console.log("rescageelevator ="+rescageelevator)
               var avectax1=radioValue1*1.10;
               console.log("x1.13 ="+avectax1)
+              var resnumt=rescageelevator*resx20
+              console.log("resnumt ="+ resnumt)
      
-              document.getElementById("resultres").value =(rescageelevator*avectax1).toFixed(2);
+              document.getElementById("resultres").value =(resnumt*avectax1).toFixed(2);
             console.log("resultt ="+document.getElementById("resultres").value )
             }
             if(radioValue2){
     
- 
+                var resx20=Math.ceil(resnof/20)
+                console.log("resx20 ="+resx20)
                 var resmoyenlogement=parseInt(Math.ceil((resnoa) /(resnof)));
                 console.log("resmoyenlogement ="+ resmoyenlogement)
                 var rescageelevator=parseInt(Math.ceil((resmoyenlogement/6)));
                 console.log("rescageelevator ="+rescageelevator)
                 var avectax2=radioValue2*1.13;
                 console.log("x1.13 ="+avectax1)
+                var resnumt=rescageelevator*resx20
+                console.log("resnumt ="+ resnumt)
        
-                document.getElementById("resultres").value =(rescageelevator*avectax2).toFixed(2);
+                document.getElementById("resultres").value =( resnumt*avectax2).toFixed(2);
               console.log("resultt ="+document.getElementById("resultres").value )
             }
             if(radioValue3){
     
- 
+                var resx20=Math.ceil(resnof/20)
+                console.log("resx20 ="+resx20)
                 var resmoyenlogement=parseInt(Math.ceil((resnoa) /(resnof)));
                 console.log("resmoyenlogement ="+ resmoyenlogement)
                 var rescageelevator=parseInt(Math.ceil((resmoyenlogement/6)));
                 console.log("rescageelevator ="+rescageelevator)
                 var avectax3=radioValue3*1.16;
                 console.log("x1.13 ="+avectax1)
+                var resnumt=rescageelevator*resx20
+                console.log("resnumt ="+ resnumt)
        
-                document.getElementById("resultres").value =(rescageelevator*avectax3).toFixed(2);
+                document.getElementById("resultres").value =( resnumt*avectax3).toFixed(2);
               console.log("resultt ="+document.getElementById("resultres").value )
             }
      });
